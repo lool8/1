@@ -4174,7 +4174,8 @@ function ad.GetConfig(ae,af)
 return ad.Configs[af]
 end
 
-return ad end function a.x()
+return ad end
+function a.x()
 local aa={}
 
 local ab=a.load'b'
@@ -4198,7 +4199,7 @@ function aa.New(af)
     })
     if syn and syn.protect_gui then syn.protect_gui(ah) end
     
-    -- 正方形圆角按钮 (50x50, 圆角14)
+    -- 正方形圆角按钮 (50x50, 圆角12)
     local ai = ac("TextButton", {
         Size = UDim2.new(0, 50, 0, 50),
         Position = UDim2.new(1, -65, 0.5, -25),
@@ -4214,7 +4215,7 @@ function aa.New(af)
     
     -- 圆角 (正方形圆角，不是圆形)
     local corner = Instance.new("UICorner")
-    corner.CornerRadius = UDim.new(0, 14)
+    corner.CornerRadius = UDim.new(0, 12)
     corner.Parent = ai
     
     -- 阴影
@@ -4307,7 +4308,8 @@ function aa.New(af)
     return ag
 end
 
-return aa end function a.y()
+return aa end
+function a.y()
 local aa={}
 
 local ab=a.load'b'
@@ -6461,7 +6463,8 @@ ah
 return"Divider",{__type="Divider",ElementFrame=ai}
 end
 
-return ae end function a.J()
+return ae end
+function a.J()
 local aa={}
 
 local ac=(cloneref or clonereference or function(ac)return ac end)
